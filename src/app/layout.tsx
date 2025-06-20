@@ -1,8 +1,24 @@
-// app/layout.jsx
-export const metadata = {
-  title: 'Coming Soon',
-  description: 'Basic coming soon site with motion',
+export const metadata: Metadata = {
+  title: {
+    default: "Coming Soon",
+  },
+  description: "A simple placeholder page.",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  icons: {
+    shortcut: "/favicon.png",
+  },
 };
+
 
 export default function RootLayout({ children }) {
   return (
@@ -12,4 +28,4 @@ export default function RootLayout({ children }) {
       </body>
     </html>
   );
-}
+} 

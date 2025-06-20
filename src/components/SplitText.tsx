@@ -16,10 +16,10 @@ export default function SplitText({ text }) {
   };
 
   const letter = {
-    hidden: { opacity: 0, x: -50 }, // start 50px to the left & transparent
+    hidden: { opacity: 0, x: -50 }, // Start 50px to the left & transparent
     visible: {
       opacity: 1,
-      x: 0, // animate to original position
+      x: 0, // Animate to original position
       transition: {
         type: 'spring',
         damping: 12,
