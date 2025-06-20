@@ -1,6 +1,6 @@
 # Coming Soon
 
-This page is a coming soon page for a placeholder website. It is designed to inform visitors that the site is under construction and will be available soon.
+This page is a coming soon page for a placeholder website. It is intended as a placeholder while building project or infrastructure. 
 
 ### Usage 
 
